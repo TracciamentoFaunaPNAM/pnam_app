@@ -163,6 +163,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout2"
         app:layout_constraintVertical_bias="0.87"
-        android:textSize="15dp"/>
+        android:textSize="15dp"
+        android:onClick="openRegistration"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
