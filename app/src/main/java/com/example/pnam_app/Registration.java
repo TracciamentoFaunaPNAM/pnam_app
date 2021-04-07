@@ -11,4 +11,12 @@ public class Registration extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
     }
+
+    private void registration(){
+        // TODO: Query e controllo username NON esistente
+        // TODO: Regex mail
+        // TODO: Regex password
+        // TODO: Query CREATE
+        // TODO: Accesso
+    }
 }

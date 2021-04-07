@@ -20,4 +20,10 @@ public class MainActivity extends AppCompatActivity {
     public void openRegistration(View view) {
         startActivity(new Intent(this, Registration.class));
     }
+
+    public void login(){
+        // TODO: Query e controllo username esistente
+        // TODO: Query e controllo password corretta
+        // TODO: Accesso
+    }
 }
