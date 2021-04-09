@@ -114,7 +114,8 @@
             android:paddingBottom="14dp"
             android:text="Login"
             android:textColor="#fff"
-            android:textSize="12sp" />
+            android:textSize="12sp"
+            android:onClick="openHome"/>
 
         <TextView
             android:layout_width="wrap_content"

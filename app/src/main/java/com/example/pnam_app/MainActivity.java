@@ -26,4 +26,8 @@ public class MainActivity extends AppCompatActivity {
         // TODO: Query e controllo password corretta
         // TODO: Accesso
     }
+
+    public void openHome(View view) {
+        startActivity(new Intent(this, Home.class));
+    }
 }
