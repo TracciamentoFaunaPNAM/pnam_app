@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // TODO: Accesso
     }
 
+
     public void openHome(View view) {
         startActivity(new Intent(this, Home.class));
     }
