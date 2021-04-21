@@ -101,7 +101,7 @@
         </RelativeLayout>
 
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -115,7 +115,12 @@
             android:text="Login"
             android:textColor="#fff"
             android:textSize="12sp"
+<<<<<<< HEAD
             android:onClick="openHome" />
+=======
+            android:onClick="openHome"
+            />
+>>>>>>> 33ee2c67cb73b4a316bf07e9f030b95b9efe3641
 
         <TextView
             android:layout_width="wrap_content"
@@ -156,15 +161,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
+        android:onClick="openRegistration"
         android:text="Non hai un account? REGISTRATI"
         android:textColor="#f68712"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.87"
-        android:textSize="15dp"
-        android:onClick="openRegistration"/>
+        app:layout_constraintVertical_bias="0.911" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

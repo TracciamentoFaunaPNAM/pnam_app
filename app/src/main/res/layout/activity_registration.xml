@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Registration">
+    tools:context=".Registration"
     android:background="@color/white">
 
     <LinearLayout
@@ -170,7 +170,12 @@
         </RelativeLayout>
 
 
+<<<<<<< HEAD
         <TextView
+=======
+
+        <Button
+>>>>>>> 33ee2c67cb73b4a316bf07e9f030b95b9efe3641
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

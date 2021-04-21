@@ -33,12 +33,21 @@
                 app:elevation="0dp"
                 app:itemIconTint="@color/orange"
                 app:itemTextColor="@color/orange"
+<<<<<<< HEAD
                 app:menu="@menu/bottom_nav_menu"
                 />
+=======
+                app:menu="@menu/bottom_nav_menu"/>
+>>>>>>> 33ee2c67cb73b4a316bf07e9f030b95b9efe3641
 
         </com.google.android.material.bottomappbar.BottomAppBar>
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 33ee2c67cb73b4a316bf07e9f030b95b9efe3641
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingButton"
             android:layout_width="wrap_content"
@@ -46,8 +55,12 @@
             android:src="@drawable/ic_photo"
             app:tint="@color/orange"
             app:backgroundTint="@color/white"
+<<<<<<< HEAD
             app:layout_anchor="@id/bottomAppBar"
             android:onClick="openInformation"/>
+=======
+            app:layout_anchor="@id/bottomAppBar"/>
+>>>>>>> 33ee2c67cb73b4a316bf07e9f030b95b9efe3641
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
