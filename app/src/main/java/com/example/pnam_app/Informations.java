@@ -17,4 +17,14 @@ public class Informations extends AppCompatActivity {
     public void openLupo(View view) {
         startActivity(new Intent(this, Lupo.class));
     }
+    public void openRettili(View view) {
+        startActivity(new Intent(this, Rettili.class));
+    }
+    public void openUngulati(View view) {
+        startActivity(new Intent(this, Ungulati.class));
+    }
+    public void openLontra(View view) {
+        startActivity(new Intent(this, Lontra.class));
+    }
+
 }
