@@ -22,26 +22,11 @@
             tools:layout_editor_absoluteY="2dp" />
 
         <TextView
-            android:id="@+id/informations"
-            android:layout_width="250dp"
-            android:layout_height="42dp"
-            android:layout_centerVertical="true"
-            android:paddingTop="5dp"
-            android:textAlignment="textStart"
-            android:text="INFORMAZIONI"
-            android:textColor="@color/orange"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="78dp"
-            tools:layout_editor_absoluteY="247dp" />
-
-        <TextView
             android:id="@+id/fauna"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:paddingTop="5dp"
+            android:paddingTop="4dp"
             android:shadowDx="1"
             android:shadowDy="1"
             android:shadowRadius="2"
@@ -73,7 +58,7 @@
             tools:layout_editor_absoluteY="327dp" />
 
         <Button
-            android:id="@+id/pesci"
+            android:id="@+id/lupo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/orange_fill__rounded_color"
