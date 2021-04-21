@@ -20,4 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public void openRegistration(View view) {
         startActivity(new Intent(this, Registration.class));
     }
+    public void openHome(View view) {
+        startActivity(new Intent(this, Home.class));
+    }
 }

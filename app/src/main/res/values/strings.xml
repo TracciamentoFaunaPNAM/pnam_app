@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">pnam_app</string>
+    <string name="Fauna_Text">Le Alpi Marittime ospitano in uno spazio relativamente ristretto una concentrazione eccezionale di specie animali e vegetali: il numero delle specie animali presenti è stimato a circa 6000, ed è continuamente incrementato dalla scoperta di nuove entità appartenenti ai gruppi meno appariscenti, quali per esempio gli Artropodi (di cui fanno parte, fra gli altri, i ragni e i gamberi). Delle circa 90 specie di Mammiferi dell’Europa centrale, nelle Alpi Marittime se ne incontrano 55, comprese 20 specie di Chirotteri, o pipistrelli.
+Specie tipicamente alpine come lo stambecco (Capra ibex), la lepre variabile (Lepus timidus), l’ermellino (Mustela erminea) e l’arvicola delle nevi (Chionomys nivalis) si affiancano nel Parco a specie caratteristiche dell’ambiente mediterraneo o della pianura, come il topo quercino (Eliomys quercinus), il cinghiale (Sus scrofa) e il muflone (Ovis musimon), trovando tutte il proprio habitat congeniale.
+Nei diversi ambienti del Parco, in boschi o pareti rocciose, laghi o praterie alpine, pietraie o arbusteti, sono state osservate 200 specie di uccelli, delle quali più di cento sono nidificanti: dalla maestosa aquila reale (Aquila chrysaetos) al piccolo merlo acquaiolo (Cinclus cinclus), dall’elusiva pernice bianca (Lagopus mutus) allo sgargiante picchio muraiolo (Tichodroma muraria).
+Anche le specie di rettili (8) e di anfibi (4) sono relativamente numerose per un ambiente alpino, grazie ai miti influssi del clima marino. Si può veramente dire che poche aree protette europee possono vantare una quantità e una varietà di specie animali paragonabili a quella del Parco naturale delle Alpi Marittime.
+    </string>
+    <string name="Lupo_Text">Ciao è possibile visitare le due sezioni del Centro faunistico "Uomini e lupi", dove è inoltre possibile osservare alcuni lupi ospitati nel grande recinto di otto ettari.</string>
 </resources>

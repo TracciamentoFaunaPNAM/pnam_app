@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Informations"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/informations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingTop="5dp"
+            android:text="INFORMAZIONI"
+            android:textAlignment="center"
+            android:textColor="@color/orange"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="238dp" />
+
+
+        <TextView
+            android:id="@+id/fauna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingTop="5dp"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="FAUNA"
+            android:textAlignment="textStart"
+            android:textColor="@color/orange"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="296dp" />
+
+        <TextView
+            android:id="@+id/informazioni_fauna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/Fauna_Text"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="327dp" />
+
+
+        <Button
+            android:id="@+id/ungulati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:text="Ungulati"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="850dp" />
+
+        <Button
+            android:id="@+id/lupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:onClick="openLupo"
+            android:text="Lupo"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="850dp" />
+
+        <Button
+            android:id="@+id/mustelidi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:text="Mustelidi"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="900dp" />
+
+        <Button
+            android:id="@+id/lontra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:text="Lontra"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="900dp" />
+
+        <Button
+            android:id="@+id/pipistrelli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:text="Pipistrelli"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="950dp" />
+
+        <Button
+            android:id="@+id/Uccelli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:text="Uccelli"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="950dp" />
+
+        <Button
+            android:id="@+id/rettili"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:text="Rettili"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1000dp" />
+
+        <Button
+            android:id="@+id/anfibi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:text="Anfibi"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="1000dp" />
+
+        <Button
+            android:id="@+id/pesci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:text="Pesci"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1050dp" />
+
+        <Button
+            android:id="@+id/invertebrati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:text="Invertebrati"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="1050dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
