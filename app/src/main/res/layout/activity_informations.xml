@@ -105,6 +105,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/orange_fill__rounded_color"
+            android:onClick="openMustelidi"
             android:text="Mustelidi"
             android:layout_marginTop="10dp"
             tools:ignore="MissingConstraints"
@@ -128,6 +129,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/orange_fill__rounded_color"
+            android:onClick="openPipistrelli"
             android:text="Pipistrelli"
             android:layout_marginTop="10dp"
             tools:ignore="MissingConstraints"
@@ -139,6 +141,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/orange_fill__rounded_color"
+            android:onClick="openUccelli"
             android:text="Uccelli"
             android:layout_marginTop="10dp"
             tools:ignore="MissingConstraints"
@@ -162,6 +165,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/orange_fill__rounded_color"
+            android:onClick="openAnfibi"
             android:text="Anfibi"
             android:layout_marginTop="10dp"
             tools:ignore="MissingConstraints"
@@ -173,6 +177,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/orange_fill__rounded_color"
+            android:onClick="openPesci"
             android:text="Pesci"
             android:layout_marginTop="10dp"
             tools:ignore="MissingConstraints"
@@ -184,11 +189,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/orange_fill__rounded_color"
+            android:onClick="openInvertebrati"
             android:text="Invertebrati"
             android:layout_marginTop="10dp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="205dp"
             tools:layout_editor_absoluteY="1050dp" />
+
+        <Button
+            android:id="@+id/mammiferi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange_fill__rounded_color"
+            android:onClick="openMammiferi"
+            android:text="Mammiferi"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="850dp" />
 
 
     </LinearLayout>
