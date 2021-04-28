@@ -2,23 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pnam_app">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
-<<<<<<< HEAD
-        <activity
-            android:name=".Home"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
-        <activity android:name=".Lupo" />
-        <activity android:name=".Informations" />
-=======
         <activity android:name=".Home"
             android:theme="@style/Theme.MaterialComponents.NoActionBar"></activity>
->>>>>>> 33ee2c67cb73b4a316bf07e9f030b95b9efe3641
         <activity android:name=".Registration" />
         <activity android:name=".MainActivity">
             <intent-filter>

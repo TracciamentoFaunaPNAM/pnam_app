@@ -38,18 +38,18 @@
 
 
             <EditText
-                android:id="@+id/username_input"
+                android:id="@+id/usernameLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/username_icon"
                 android:background="@android:color/transparent"
-                android:hint="Email"
-                android:textColorHint="@color/cardview_dark_background"
-                android:inputType="textEmailAddress"
+                android:hint="Username"
+                android:inputType="text"
                 android:maxLines="1"
                 android:paddingLeft="17dp"
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
+                android:textColorHint="@color/cardview_dark_background"
                 android:textSize="12sp" />
 
             <ImageView
@@ -58,7 +58,7 @@
                 android:layout_height="10.3dp"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="17dp"
-                android:src="@drawable/email" />
+                android:src="@drawable/user" />
 
 
         </RelativeLayout>
@@ -74,7 +74,7 @@
             android:background="@drawable/orange_border_rounded">
 
             <EditText
-                android:id="@+id/pass"
+                android:id="@+id/passwordLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/icon"
@@ -102,6 +102,7 @@
 
 
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -115,12 +116,8 @@
             android:text="Login"
             android:textColor="#fff"
             android:textSize="12sp"
-<<<<<<< HEAD
-            android:onClick="openHome" />
-=======
             android:onClick="openHome"
             />
->>>>>>> 33ee2c67cb73b4a316bf07e9f030b95b9efe3641
 
         <TextView
             android:layout_width="wrap_content"

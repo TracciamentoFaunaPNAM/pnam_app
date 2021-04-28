@@ -11,12 +11,6 @@
     <item
         android:id="@+id/miInfo"
         android:title="Info"
-<<<<<<< HEAD
-        android:icon="@drawable/info" />
-
-</menu>
-=======
         android:icon="@drawable/info"/>
 
 </menu>
->>>>>>> 33ee2c67cb73b4a316bf07e9f030b95b9efe3641
