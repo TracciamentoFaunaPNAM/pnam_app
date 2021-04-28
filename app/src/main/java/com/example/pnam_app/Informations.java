@@ -26,5 +26,25 @@ public class Informations extends AppCompatActivity {
     public void openLontra(View view) {
         startActivity(new Intent(this, Lontra.class));
     }
-
+    public void openMustelidi(View view) {
+        startActivity(new Intent(this, Mustelidi.class));
+    }
+    public void openPipistrelli(View view) {
+        startActivity(new Intent(this, Pipistrelli.class));
+    }
+    public void openUccelli(View view) {
+        startActivity(new Intent(this, Uccelli.class));
+    }
+    public void openAnfibi(View view) {
+        startActivity(new Intent(this, Anfibi.class));
+    }
+    public void openPesci(View view) {
+        startActivity(new Intent(this, Pesci.class));
+    }
+    public void openInvertebrati(View view) {
+        startActivity(new Intent(this, Invertebrati.class));
+    }
+    public void openMammiferi(View view) {
+        startActivity(new Intent(this, Mammiferi.class));
+    }
 }
